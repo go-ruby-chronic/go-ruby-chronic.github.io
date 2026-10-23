@@ -21,6 +21,6 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap", "404"]
   blurb = "A standalone Go module any program can import; the OAuth-style dependency runs the other way — `rbgo` binds it into [go-embedded-ruby](https://github.com/go-embedded-ruby/ruby) as a native module, the same pattern as go-ruby-yaml."
 
 [[params.phases]]
-  name = "100% coverage · 6 arches"
+  name = "100% coverage · 8 arches"
   status = "ready"
-  blurb = "100% test coverage is the CI gate, `gofmt` + `go vet` clean, green across the six 64-bit Go targets (amd64, arm64, riscv64, loong64, ppc64le, s390x — including the big-endian lane)."
+  blurb = "100% test coverage is the CI gate, `gofmt` + `go vet` clean, green across the six 64-bit Go targets (amd64, arm64, riscv64, loong64, ppc64le, s390x — including the big-endian lane) and on 32-bit 386 and arm since v0.1.0."
